@@ -1,6 +1,12 @@
 {
     "compilerOptions": {
         "target": "ES5",
-        "baseUrl": "."
-    }
+        "baseUrl": ".",
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true
+    },
+    "include": [
+        "src/*",
+    ]
 }
