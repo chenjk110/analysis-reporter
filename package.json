@@ -1,0 +1,26 @@
+{
+    "name": "analysis-reporter",
+    "version": "0.1.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "start": "NODE_ENV=development nodemon -e ts -w ./src -x 'node --require ts-node/register ./src/index.ts'"
+    },
+    "keywords": [],
+    "author": {
+        "name": "chenjk110",
+        "email": "chenjk110@qq.com"
+    },
+    "license": "mit",
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^17.0.17",
+        "nodemon": "^2.0.15",
+        "ts-node": "^10.5.0",
+        "typescript": "^4.5.5"
+    }
+}
